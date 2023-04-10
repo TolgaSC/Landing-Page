@@ -1,0 +1,129 @@
+
+.App {
+  text-align: center;
+}
+.App header {
+  background-color: #008004;
+  color: #fff;
+  height: 450px;
+}
+.App h1{
+  font-size: 20px;
+  margin: 0;
+  padding: 50px 0 0 0;
+}
+.App h1, p {
+  color: #000;
+}
+.App h2 {
+  font-size: 53px;
+  margin: 20px auto;
+}
+.App .line {
+  margin: 0 auto;
+  width: 29vw;
+  background-color: white;
+  height: 1px;
+}
+.App p {
+  font-size: 14px;
+  width: 60%;
+  margin: 20px auto;
+  word-break: break-all;
+}
+.App article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.App article h3 {
+  font-size: 55px;
+  margin: 45px 0 0 0;
+}
+.App article p {
+  font-weight: 600;
+}
+.App main div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 95%;
+}
+.App main h2 {
+  display: block;
+  font-size: 16px;
+  color: #008004;
+  margin: 50px 0 0 0;
+}
+.App main h3 {
+  display: block;
+  margin: 0 auto;
+  font-size: 40px;
+  width: 80%;
+}
+.App main .head-div {
+  margin: 40px auto;
+  width: 100%;
+}
+.App main div section div h4 {
+  padding: 5px;
+  text-align: left;
+}
+.App main .head-div p {
+  width: 100%;
+  text-align: left;
+}
+.App section {
+  margin: 30px 0;
+  display: flex;
+  width: 400px;
+}
+.App section div {
+  width: 300px;
+  margin: 0px auto;
+}
+.App section .icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  width: 40px;
+  margin: 10px auto;
+}
+.App section div img {
+  width: 30px;
+}
+.App section .headtext h4 {
+  margin:  0;
+}
+.App section .headtext p {
+  margin:  0;
+}
+.App footer {
+  margin: 0 auto;
+  width: 80%;
+  border-left: 50px solid grey;
+  border-right: 50px solid grey;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: left;
+  padding: 0 10px;
+}
+.App footer div {
+  margin: 0 auto;
+}
+.App footer div .images {
+  width: 19vw;
+  height: 17vh;
+}
+.App footer .images img {
+  height: 100%;
+  width: 100%;
+}
+.App footer div h4 {
+  color: rgb(27, 99, 255);
+}
+
+.App footer div p:nth-of-type(2) {
+  color: rgb(32, 171, 202);
+  font-weight: 700;
+}
